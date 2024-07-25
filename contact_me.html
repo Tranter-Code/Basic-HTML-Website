@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en-GB">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Contact Me Page of Portable Application Knowledge website.">
+        <meta name="keywords" content="Portable, Applications, Application, Knowledge, What, Are, ?">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="styles/main.css" />
+        <link rel="stylesheet" href="styles/form_styling.css" />
+
+        <!--[if it IE 9]> <script src="scripts/html5shiv.js"> </script> ![endif]-->
+        <!--
+            Author: David Tranter - 21187515
+            Organisstion: Birmingham City University
+            Copyright: Copyright 2021
+        -->
+    </head>
+    <body>
+        <header>
+            <nav>
+                <input type="checkbox" id="hamburger_menu">
+                <label for="hamburger_menu" class="menu_button">
+                    <i class="fa fa-bars"></i>
+                </label>
+                <img class="logo" src="graphics/pak_logo.png" alt="Logo of website.
+                    Outline of a USB Drive with the words Portable Application Knowledge
+                    around it." />
+                <ul>
+                    <li><a class="nav_button" href="index.html">Home</a></li>
+                    <li><a class="nav_button" href="the_uses.html">The Uses</a></li>
+                    <li><a class="nav_button" href="the_how.html">The How</a></li>
+                    <li><a class="nav_button" href="references.html">References</a></li>
+                    <li><a class="active" href="contact_me.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="heading_bar">
+            <h1>Contact Me</h1>
+        </div>
+        <main>
+            <article class="contact_text">
+                <h6>Have a Serious Enquirey? Get in Touch!</h6>
+                <p class="contact_para">
+                If you would like to get in touch with me, you can do so by filling 
+                out your details on this page and sending me an email. Please only 
+                use this feature for serious enquiries or genuine questions about 
+                the Portable applications topic.
+                </p>
+                <img class="email_icon" src="images/email.png" alt="Emails sent through this website function are submitted to a business email address."/>
+            </article>
+            <form class="contact_form">
+                <div class="input_label">
+                    <label for="first_name">First Name:</label>
+                </div>
+                <div class="input_area">
+                    <input type="text" id="first_name" name="first_name" placeholder="John">
+                </div>
+
+                <div class="input_label">
+                    <label for="last_name">Last Name:</label>
+                </div>
+                <div class="input_area">
+                    <input type="text" id="last_name" name="last_name" placeholder="Smith">
+                </div>
+
+                <div class="input_label">
+                    <label for="email_address">Email Address:</label>
+                </div>
+                <div class="input_area">
+                    <input type="text" id="email_address" name="email_address" placeholder="Example@address.com">
+                </div>
+
+                <div class="input_label">
+                    <label for="subject">Subject:</label>
+                </div>
+                <div class="input_area">
+                    <input type="text" id="subject" name="subject" placeholder="Subject of Email">
+                </div>
+
+                <div class="input_label">
+                    <label for="message">Message:</label>
+                </div>
+                <div class="input_area">
+                    <textarea id="message" name="message" placeholder="Your message here"></textarea>
+                </div>
+                
+                <input type="reset">
+                <input type="submit">
+            </form>
+        </main>
+        <footer>
+            <p>Copyright David Tranter 21187515 Birmingham City University 2021</p>
+        </footer>
+    </body>
+</html>

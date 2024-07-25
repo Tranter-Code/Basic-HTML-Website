@@ -1,0 +1,788 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    min-height: 100vh;
+    padding-bottom: 30px;
+    color: #041A2C;
+}
+header{
+    position: sticky;
+    top: 0%;
+}
+nav{
+    background: #5CB3FB;
+    height: 100px;
+    width: 100%;
+}
+img.logo{
+    max-height: 100%;
+    max-width: 100%;
+    padding: 5px 30px;
+}
+ul{
+    float: right;
+    margin-right: 100px;
+    line-height: 50px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 90px;
+    margin: 0px 5px;
+}
+nav ul li a{
+    color: #041A2C;
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all .3s;
+}
+a.active,a.nav_button:hover{
+    background: #B7DEFF;
+    transition: .5s;
+}
+.menu_button{
+    font-size: 50px;
+    color:#041A2C;
+    float: right;
+    margin-right: 50px;
+    line-height: 100px;
+    cursor: pointer;
+    display: none;
+}
+#hamburger_menu{
+    display: none;
+}
+div.heading_bar{
+    height: auto;
+    max-width: 100%;
+    background: #B7DEFF;
+    color: #041A2C;
+    text-align: center;
+    font-size: 22px;
+}
+main{
+    max-width: 90vw;
+    margin: 0 auto;
+}
+h2{
+    width: 60%;
+    font-size: 20px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+p.what_are_portable_apps{
+    max-width: 70%;
+    font-size: 17px;
+    float: left;
+    margin: auto;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+img.storage_drives{
+    max-height: 23%;
+    max-width: 23%;
+    float: right;
+    margin: auto;
+    padding-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p1apps{
+    width: 90vw;
+    margin: auto;
+    float: left;
+    overflow: auto;
+}
+.app_examples{
+    max-width: 100%;
+    font-size: 17px;
+    float: left;
+    margin: auto;
+    padding-bottom: 40px;
+    
+}
+h6{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.blender{
+    width: 33%;
+    height: auto;
+    margin: auto;
+    float: left;
+    text-align: justify;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+.vba{
+    width: 33%;
+    height: auto;
+    margin: auto;
+    float: left;
+    text-align: justify;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+.minecraft{
+    width: 33%;
+    height: auto;
+    margin: auto;
+    float: left;
+    text-align: justify;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+img.blender_logo{
+    display: block;
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+img.vba_logo{
+    display: block;
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+img.minecraft_logo{
+    display: block;
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.divider{
+    width: 85%;
+    background: #5CB3FB;
+    height: 15px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 8px;
+}
+.p2main{
+    max-width: 100%;
+    float: left;
+    height: auto;
+}
+p.benefits{
+    float: left;
+    font-size: 17px;
+    max-width: 70%;
+    padding-bottom: 30px;
+    text-align: justify;
+    padding-right: 30px;
+}
+img.usb_laptop{
+    max-width: 30%;
+    float: right;
+    padding-bottom: 30px;
+    padding-top: 0px;
+}
+.portableapps{
+    float: left;
+    max-width: 40%;
+}
+.p2second{
+    float: left;
+    max-width: 60%;
+}
+p.para_ease{
+    float: left;
+    max-width: 100%;
+    font-size: 17px;
+    padding-bottom: 30px;
+    text-align: justify;
+    padding-right: 30px;
+}
+img.portableapps_sc{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+.para_portableapps{
+    float: left;
+    max-width: 100%;
+    padding-bottom: 30px;
+    text-align: justify;
+    padding-right: 30px;
+}
+article.p3a1{
+    max-width: 50%;
+    margin-right: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    float: left;
+}
+article.p3a2{
+    max-width: 50%;
+    margin-right: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    float: left;
+}
+img.confused_img{
+    float: right;
+    max-width: 44%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+p.how_they_work{
+    float: left;
+    max-width: 100%;
+    font-size: 17px;
+    padding-bottom: 30px;
+    text-align: justify;
+    padding-right: 30px;
+}
+p.confused{
+    float: left;
+    max-width: 100%;
+    font-size: 17px;
+    padding-bottom: 30px;
+    text-align: justify;
+    padding-right: 30px;
+}
+article.contact_text{
+    float: left;
+    max-width: 45%;
+    margin-top: 130px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+p.contact_para{
+    max-width: 70%;
+    text-align: center;
+    font-size: 17px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+img.email_icon{
+    max-width: 60%;
+    display: block;
+    margin: auto;
+}
+footer{
+    float: left;
+    text-align: center;
+    width: 100%;
+    background: #5CB3FB;
+    height: auto;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+@media (max-width: 1199px){
+    nav ul{
+        float: right;
+        margin-right: 50px;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 97px;
+        margin: 0px 3px;
+        /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    }
+    nav ul li a{
+        color: #041A2C;
+        font-size: 18px;
+        padding: 10px 15px;
+        border-radius: 3px;
+        transition: all .3s;
+    }
+}
+@media (max-width: 900px){
+    nav ul{
+        float: right;
+        margin-right: 50px;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 99px;
+        margin: 0px 0px;
+        /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    }
+    nav ul li a{
+        color: #041A2C;
+        font-size: 17px;
+        padding: 10px 10px;
+        border-radius: 3px
+    }
+    h2{
+        width: 60%;
+        font-size: 23px;
+        float: left;
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .blender{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        float: left;
+        text-align: justify;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    .vba{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        float: left;
+        text-align: justify;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    .minecraft{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        float: left;
+        text-align: justify;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    img.blender_logo{
+        display: block;
+        max-width: 50%;
+        max-height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    img.vba_logo{
+        display: block;
+        max-width: 50%;
+        max-height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    img.minecraft_logo{
+        display: block;
+        max-width: 50%;
+        max-height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    article.p3a1{
+        max-width: 50%;
+        margin-right: 0px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        float: left;
+        padding-top: 30px;
+    }
+    article.p3a2{
+        max-width: 50%;
+        margin-right: 0px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        float: left;
+    }
+    img.confused_img{
+        display: block;
+        max-width: 50%;
+        max-height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        float: none;
+    }
+    p.how_they_work{
+        float: left;
+        max-width: 100%;
+        font-size: 19px;
+        padding-bottom: 30px;
+        text-align: justify;
+        padding-right: 0px;
+    }
+    p.confused{
+        float: left;
+        max-width: 100%;
+        font-size: 19px;
+        padding-bottom: 30px;
+        text-align: justify;
+        padding-right: 0px;
+    }
+    
+}
+@media (max-width: 835px){
+    .menu_button{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: auto;
+        background: #B7DEFF;
+        top: 100px;
+        left: -100%;
+        text-align: center;
+        transition: all .3s;
+    }
+    nav ul li{
+        display: block;
+    }
+    nav ul li a{
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+    a.nav_button:hover,a.active{
+        background: #5CB3FB;
+        padding: 10px 20px;
+        border-radius: 10px
+    }
+    #hamburger_menu:checked ~ ul{
+        left: 0;
+    }
+    h2{
+        width: 60%;
+        font-size: 29px;
+        float: left;
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    h6{
+        font-size: 23px;
+        text-align: center;
+        padding-bottom: 20px;
+    }    
+    p.what_are_portable_apps{
+        max-width: 100%;
+        font-size: 20px;
+        float: left;
+        margin: auto;
+        padding-bottom: 20px;
+        text-align: justify;
+    }    
+    img.storage_drives{
+        max-height: 100%;
+        max-width: 100%;
+        float: left;
+        margin: auto;
+        padding-bottom: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .blender{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        float: left;
+        text-align: justify;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    .vba{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        float: left;
+        text-align: justify;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    .minecraft{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        float: left;
+        text-align: justify;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    img.blender_logo{
+        display: block;
+        max-width: 50%;
+        max-height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    img.vba_logo{
+        display: block;
+        max-width: 50%;
+        max-height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    img.minecraft_logo{
+        display: block;
+        max-width: 50%;
+        max-height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    img.usb_laptop{
+        max-height: 100%;
+        max-width: 100%;
+        float: left;
+        margin: auto;
+        padding-bottom: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p.benefits{
+        max-width: 100%;
+        font-size: 20px;
+        float: left;
+        margin: auto;
+        padding-bottom: 20px;
+        text-align: justify;
+        padding-right: 0;
+    }
+    section.p2second{
+        max-width: 100%;
+    }
+    p.para_ease{
+        max-width: 100%;
+        font-size: 20px;
+        float: left;
+        margin: auto;
+        padding-bottom: 20px;
+        text-align: justify;
+        padding-right: 0;
+    }
+    .portableapps{
+        float: left;
+        max-width: 100%;
+    }
+    p.para_portableapps{
+        max-width: 100%;
+        font-size: 20px;
+        float: left;
+        margin: auto;
+        padding-bottom: 20px;
+        text-align: justify;
+        padding-right: 0;
+    }
+    article.p3a1{
+        max-width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        float: left;
+        margin: auto;
+    }
+    article.p3a2{
+        max-width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        float: left;
+        margin: auto;
+    }
+    p.how_they_work{
+        float: left;
+        max-width: 100%;
+        font-size: 20px;
+        padding-bottom: 30px;
+        text-align: justify;
+        margin: auto;
+    }
+    p.confused{
+        float: left;
+        max-width: 100%;
+        font-size: 20px;
+        padding-bottom: 30px;
+        text-align: justify;
+        margin: auto;
+    }
+    article.contact_text{
+        float: left;
+        max-width: 100%;
+        margin-top: 30px;
+        margin-left: 15px;
+        margin-bottom: 0px;
+    }
+    p.contact_para{
+        max-width: 85%;
+        text-align: center;
+        font-size: 17px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    img.email_icon{
+        max-width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width: 650px){
+    .menu_button{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: auto;
+        background: #B7DEFF;
+        top: 100px;
+        left: -100%;
+        text-align: center;
+        transition: all .7s;
+    }
+    nav ul li{
+        display: block;
+    }
+    nav ul li a{
+        font-size: 30px;
+    }
+    a.nav_button:hover,a.active{
+        background: #5CB3FB;
+        padding: 10px 40px;
+        border-radius: 10px
+    }
+    #hamburger_menu:checked ~ ul{
+        left: 0;
+    }
+    h2{
+        width: 50%;
+        font-size: 29px;
+        float: left;
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    p.what_are_portable_apps{
+        max-width: 100%;
+        font-size: 20px;
+        float: left;
+        margin: auto;
+        padding-bottom: 20px;
+    }    
+    img.storage_drives{
+        max-height: 100%;
+        max-width: 100%;
+        float: left;
+        margin: auto;
+        padding-bottom: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .blender{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        float: left;
+        text-align: justify;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    .vba{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        float: left;
+        text-align: justify;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    .minecraft{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        float: left;
+        text-align: justify;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    img.blender_logo{
+        display: block;
+        max-width: 50%;
+        max-height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    img.vba_logo{
+        display: block;
+        max-width: 50%;
+        max-height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    img.minecraft_logo{
+        display: block;
+        max-width: 50%;
+        max-height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    img.usb_laptop{
+        max-height: 100%;
+        max-width: 100%;
+        float: left;
+        margin: auto;
+        padding-bottom: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p.benefits{
+        max-width: 100%;
+        font-size: 20px;
+        float: left;
+        margin: auto;
+        padding-bottom: 20px;
+        text-align: justify;
+        padding-right: 0;
+    }
+}

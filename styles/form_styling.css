@@ -1,0 +1,63 @@
+.contact_form{
+    box-sizing: border-box;
+    float: right;
+    min-width: 50%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #f2f2f2;
+    padding:20px;
+    border-radius: 5px;
+}
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+textarea{
+    height: 150px;
+}
+label{
+    display: inline-block;
+    padding: 15px 15px 15px 0;
+}
+input[type=submit]{
+    padding: 12px 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin: 15px;
+    background: #B7DEFF;
+}
+input[type=submit]:hover{
+    background: #5CB3FB;
+} 
+input[type=reset]{
+    padding: 12px 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin: 15px;
+    background: #B7DEFF;
+}
+input[type=reset]:hover{
+    background: #5CB3FB;
+}
+@media (max-width: 835px){
+    .contact_form{
+        box-sizing: border-box;
+        float: left;
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        background-color: #f2f2f2;
+        padding:20px;
+        border-radius: 5px;
+    }
+    
+}
